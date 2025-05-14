@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Online Learning Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">LearnHub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-gradient text-white text-center py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h1 class="display-4 fw-bold mb-4">Unlock Your Potential with Online Learning</h1>
+                    <p class="lead mb-4">Access over 1,000 courses taught by industry experts and transform your career
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="courses.html" class="btn btn-light btn-lg">Explore Courses</a>
+                        <a href="#features" class="btn btn-outline-light btn-lg">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Why Choose LearnHub?</h2>
+                <p class="text-muted">We provide the best online learning experience with expert instructors and
+                    flexible learning options</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <div class="feature-icon bg-primary text-white rounded-circle mb-3">
+                                <i class="bi bi-person-check"></i>
+                            </div>
+                            <h3 class="card-title h5">Expert Instructors</h3>
+                            <p class="card-text">Learn from industry professionals with years of experience in their
+                                fields</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <div class="feature-icon bg-primary text-white rounded-circle mb-3">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <h3 class="card-title h5">Flexible Learning</h3>
+                            <p class="card-text">Study at your own pace with lifetime access to course materials</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <div class="feature-icon bg-primary text-white rounded-circle mb-3">
+                                <i class="bi bi-award"></i>
+                            </div>
+                            <h3 class="card-title h5">Certificates</h3>
+                            <p class="card-text">Earn certificates upon completion to showcase your new skills</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses Preview -->
+    <section class="py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold">Featured Courses</h2>
+                <a href="courses.html" class="text-decoration-none">View All Courses →</a>
+            </div>
+
+            <div class="row" id="featured-courses">
+                <!-- Courses will be loaded dynamically via JavaScript -->
+                <div class="col-12 text-center py-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">What Our Students Say</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body p-4 text-center">
+                            <div class="mb-3">
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
+                            </div>
+                            <p class="lead fst-italic mb-4">
+                                "The Complete Web Development Bootcamp was exactly what I needed to transition into a
+                                tech career. The instructor was knowledgeable, supportive, and made complex topics easy
+                                to understand. I landed a job as a junior developer within 3 months of completing the
+                                course!"
+                            </p>
+                            <div class="border-top pt-3">
+                                <h5 class="mb-0">Sarah Johnson</h5>
+                                <p class="text-muted">Web Developer at TechCorp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h2 class="fw-bold mb-3">Ready to Start Learning?</h2>
+            <p class="lead mb-4">Join thousands of students who are already learning and growing with LearnHub</p>
+            <a href="courses.html" class="btn btn-light btn-lg">Get Started Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>LearnHub</h5>
+                    <p>Your gateway to quality education online</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="courses.html" class="text-white">Courses</a></li>
+                        <li><a href="about.html" class="text-white">About</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect With Us</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class="mb-0">© 2023 LearnHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom JS -->
+    <script src="js/home.js"></script>
+</body>
+
+</html>

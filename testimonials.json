@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah Johnson",
+        "role": "Web Developer at TechCorp",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "content": "The Complete Web Development Bootcamp was exactly what I needed to transition into a tech career. The instructor was knowledgeable, supportive, and made complex topics easy to understand. I landed a job as a junior developer within 3 months of completing the course!"
+    },
+    {
+        "id": 2,
+        "name": "Michael Rodriguez",
+        "role": "UX Designer at DesignWorks",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "content": "LearnHub's UI/UX design course transformed my career. The project-based curriculum gave me real-world experience and a portfolio that helped me land my dream job. The community of students and instructors continues to be a great resource for networking and continuous learning."
+    },
+    {
+        "id": 3,
+        "name": "Emily Chen",
+        "role": "Data Scientist at DataTech",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "content": "The Data Science and Machine Learning course exceeded all my expectations. The content was rigorous yet accessible, and the hands-on projects prepared me for real-world challenges. The instructor's expertise and willingness to help made all the difference in my learning journey."
+    },
+    {
+        "id": 4,
+        "name": "David Wilson",
+        "role": "Mobile Developer at AppWorks",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        "content": "After taking the Flutter Development course, I was able to build and publish my first mobile app within weeks. The course structure was perfect, starting from the basics and gradually moving to advanced topics. The support from instructors was incredible throughout the entire journey."
+    }
+]

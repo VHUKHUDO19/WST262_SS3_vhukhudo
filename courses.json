@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "title": "Complete Web Development Bootcamp",
+        "description": "Learn HTML, CSS, JavaScript, React and Node.js to become a full-stack web developer.",
+        "category": "Web Development",
+        "level": "Beginner to Advanced",
+        "price": 89.99,
+        "rating": 4.8,
+        "students": 12549,
+        "instructor": "John Smith",
+        "tags": [
+            "frontend",
+            "backend",
+            "fullstack"
+        ],
+        "learningOutcomes": [
+            "Build responsive websites using HTML, CSS and Bootstrap",
+            "Create dynamic web applications with JavaScript and React",
+            "Develop backend APIs with Node.js and Express",
+            "Deploy full-stack applications to production servers"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Data Science and Machine Learning",
+        "description": "Master the skills of data analysis, visualization and machine learning with Python.",
+        "category": "Data Science",
+        "level": "Intermediate",
+        "price": 94.99,
+        "rating": 4.7,
+        "students": 8723,
+        "instructor": "Emily Chen",
+        "tags": [
+            "python",
+            "machine learning",
+            "data"
+        ],
+        "learningOutcomes": [
+            "Analyze and visualize data using Python libraries like Pandas and Matplotlib",
+            "Build machine learning models with scikit-learn and TensorFlow",
+            "Apply statistical methods to extract insights from datasets",
+            "Develop end-to-end data science projects"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "UX/UI Design Fundamentals",
+        "description": "Learn the principles of user experience and interface design for digital products.",
+        "category": "Design",
+        "level": "Beginner",
+        "price": 79.99,
+        "rating": 4.6,
+        "students": 6382,
+        "instructor": "Sarah Johnson",
+        "tags": [
+            "design",
+            "ui",
+            "ux"
+        ],
+        "learningOutcomes": [
+            "Create user personas and journey maps",
+            "Design wireframes and prototypes for web and mobile applications",
+            "Conduct usability testing and gather user feedback",
+            "Develop a portfolio of UX/UI design projects"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Advanced JavaScript: From Zero to Hero",
+        "description": "Deep dive into modern JavaScript with ES6+, async/await, and more advanced concepts.",
+        "category": "Web Development",
+        "level": "Intermediate to Advanced",
+        "price": 84.99,
+        "rating": 4.9,
+        "students": 9741,
+        "instructor": "Michael Davis",
+        "tags": [
+            "javascript",
+            "es6",
+            "frontend"
+        ],
+        "learningOutcomes": [
+            "Master ES6+ features like arrow functions, destructuring, and modules",
+            "Understand asynchronous programming with Promises and async/await",
+            "Apply functional programming concepts in JavaScript",
+            "Optimize JavaScript applications for performance"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Mobile App Development with Flutter",
+        "description": "Build cross-platform mobile apps for iOS and Android with Google's Flutter framework.",
+        "category": "Mobile Development",
+        "level": "Intermediate",
+        "price": 89.99,
+        "rating": 4.7,
+        "students": 5492,
+        "instructor": "David Wilson",
+        "tags": [
+            "flutter",
+            "mobile",
+            "cross-platform"
+        ],
+        "learningOutcomes": [
+            "Set up Flutter development environment",
+            "Create beautiful and responsive user interfaces with Flutter widgets",
+            "Manage state and data flow in Flutter applications",
+            "Publish apps to the Apple App Store and Google Play Store"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Python for Data Science and AI",
+        "description": "Learn Python programming for data analysis, visualization, and artificial intelligence.",
+        "category": "Data Science",
+        "level": "Beginner to Intermediate",
+        "price": 79.99,
+        "rating": 4.8,
+        "students": 11043,
+        "instructor": "Lisa Wang",
+        "tags": [
+            "python",
+            "data science",
+            "ai"
+        ],
+        "learningOutcomes": [
+            "Master Python programming fundamentals",
+            "Perform data analysis with NumPy and Pandas",
+            "Create data visualizations with Matplotlib and Seaborn",
+            "Implement machine learning algorithms for predictive modeling"
+        ]
+    }
+]

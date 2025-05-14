@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Dr. Robert Anderson",
+        "role": "Founder & CEO",
+        "bio": "With over 20 years of experience in education technology, Dr. Anderson founded LearnHub with a vision to make quality education accessible to everyone.",
+        "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    },
+    {
+        "name": "Jennifer Lee",
+        "role": "Chief Learning Officer",
+        "bio": "Jennifer has a Ph.D. in Educational Psychology and specializes in curriculum development. She ensures all courses meet the highest pedagogical standards.",
+        "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    },
+    {
+        "name": "Marcus Williams",
+        "role": "CTO",
+        "bio": "With a background in software engineering and AI, Marcus leads our technology team in creating an intuitive and effective learning platform.",
+        "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    },
+    {
+        "name": "Sophia Garcia",
+        "role": "Head of Content",
+        "bio": "Sophia works with industry experts to develop cutting-edge courses that reflect current industry practices and emerging technologies.",
+        "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    }
+]
